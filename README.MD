@@ -7,11 +7,12 @@
 4.Type ssh and press enter
 </p>
 
-```sh
-ssh
-```
+    ```sh
+    ssh
+    ```
 
 <h2>Step 2:  Generate the SSH Key</h2>
+
 1. In the command prompt, type the following:
 
    ```sh
@@ -27,9 +28,59 @@ ssh
 8. You can open copy your ssh by opening the file in notepad.
 
 <h2>Step 3:  link SSH key with Github</h2>
+
 1. Go to your Github Profile.
 2. Look into setting
 3. Click on SSH & Key
 4. Create the name for it 
 5. Copy the key from notepad into it. Save
+
+<h2>Step 4:  Initialise git in local repository </h2>
+
+1. Create your directory for project.
+2. Run cmd on the project folder.
+3. Run this command :
+
+    ```sh
+    git init
+    ```
+
+# Git Commands
+
+1. 
+```sh
+git init
+```
+To create repository on project folder
+
+2. 
+```sh
+git add <filename>
+```
+To add file into next commit
+
+3. 
+```sh
+git commit -m <message>
+```
+commit the changes with memo
+
+4. 
+```sh
+git branch -M main
+```
+create branch for the commit
+
+5. 
+```sh
+git remote add origin <linkSSH>
+```
+add git url for the commit
+
+6. 
+```sh
+git push -u origin main
+```
+push the update into the branch
+
 
