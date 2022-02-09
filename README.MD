@@ -6,10 +6,8 @@
 <br>
 4.Type ssh and press enter
 </p>
-```
-ssh
-```
 
+```ssh```
 
 <h2>Step 2:  Generate the SSH Key</h2>
 <p>1 .Download from this link [https://github.com/PowerShell/Win32-OpenSSH/releases]
